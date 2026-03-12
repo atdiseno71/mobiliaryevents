@@ -1,0 +1,147 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+    color: #fff !important;
+    background-color: #000000 !important;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.main-footer {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+/* =========================
+   CONTENT
+========================= */
+.content-wrapper {
+    background-color: #000000 !important;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+[class*="sidebar-dark-"] {
+    background-color: #212529 !important;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn-primary {
+    color: #fff !important;
+    background-color: #212529 !important;
+    border-color: #fff !important;
+}
+
+/* =========================
+   CARDS
+========================= */
+.card {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+
+/* =========================
+   LIST GROUP
+========================= */
+.list-group-item {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+
+/* =========================
+   BUTTONS - HOVER / FOCUS
+========================= */
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #fff !important;
+}
+
+/* Si usas btn-outline */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #fff !important;
+}
+
+/* =========================
+   LIST GROUP - HOVER
+========================= */
+.list-group-item:hover,
+.list-group-item:focus {
+    color: #fff !important;
+    background-color: #343a40 !important;
+}
+
+/* =========================
+   SELECT2 - TEXTO QUE DESAPARECE
+========================= */
+.select2-container--default .select2-selection--single {
+    background-color: #212529 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    color: #fff !important;
+}
+
+/* Hover y focus (el bug real) */
+.select2-container--default
+    .select2-selection--single:hover
+    .select2-selection__rendered,
+.select2-container--default
+    .select2-selection--single:focus
+    .select2-selection__rendered {
+    color: #fff !important;
+}
+
+/* Dropdown */
+.select2-dropdown {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+
+.select2-results__option {
+    color: #fff !important;
+}
+
+/* Hover en opciones */
+.select2-results__option--highlighted {
+    background-color: #495057 !important;
+    color: #fff !important;
+}
+
+.table-hover tbody tr:hover {
+    color: #fbfdff !important;
+    background-color: #007bff !important;
+}
+
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    background-color: #495057 !important;
+}
+
+.btn-outline-primary {
+    color: #495057 !important;
+    border-color: #495057 !important;
+}
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: #495057 !important;
+}
+
+.modal-content {
+    background-color: #495057 !important;
+}

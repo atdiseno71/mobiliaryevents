@@ -1,0 +1,14 @@
+// resources/assets/sass/app.scss
+@import '~jquery-ui/themes/base/all.css';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "scss/fontawesome/scss/fontawesome.scss";
+@import "scss/fontawesome/scss/solid.scss";
