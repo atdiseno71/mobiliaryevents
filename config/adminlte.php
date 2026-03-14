@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Fierro Software',
+    'title' => 'Mobiliario Software',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => 'Fierro <b>Software</b>',
+    'logo' => 'Mobiliario <b>Software</b>',
     // 'logo_img' => 'img/logofierrofnegro.png',
     'logo_img' => 'img/logofierrofnegro_2.png',
     // 'logo_img' => 'img/logofierrofblanco.png',
@@ -53,7 +53,7 @@ return [
     'logo_img_class' => 'brand-image  elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Fierro Software',
+    'logo_img_alt' => 'Mobiliario Software',
 
     /*
     |--------------------------------------------------------------------------

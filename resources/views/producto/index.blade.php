@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-    Equipos-Insumos
+    Productos
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@
                         <div style="display: flex; justify-content: space-between; align-items: center;">
 
                             <span id="card_title">
-                                {{ __('Administrar Equipos-Insumos') }}
+                                {{ __('Administrar Productos') }}
                             </span>
 
                             @can('productos.create')
@@ -54,7 +54,7 @@
                                 <tbody>
                                     <tr>
                                         <td colspan="10" class="text-center text-muted py-4">
-                                            No hay Equipos-Insumos registrados.
+                                            No hay Productos registrados.
                                         </td>
                                     </tr>
                                 </tbody>

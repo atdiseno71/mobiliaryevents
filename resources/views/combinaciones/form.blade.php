@@ -25,8 +25,8 @@
 
         <hr>
 
-        {{-- Equipos-Insumos --}}
-        <h5 class="mb-3">Equipos-Insumos del combo</h5>
+        {{-- Productos --}}
+        <h5 class="mb-3">Productos del combo</h5>
 
         <div class="row">
             {{-- Izquierda: disponibles --}}
@@ -52,7 +52,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <strong class="mb-0">Equipos-Insumos </strong>
+                                <strong class="mb-0">Productos </strong>
                             </div>
                             <!-- Filtro por producto -->
                             <div class="col-md-9 d-flex align-items-center gap-2">

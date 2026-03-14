@@ -87,7 +87,7 @@
         <hr>
 
         {{-- SECCIÓN DE PRODUCTOS SELECCIONADOS EN REMISION --}}
-        <h5 class="mb-3">Equipos-Insumos en remisión</h5>
+        <h5 class="mb-3">Productos en remisión</h5>
 
         <div class="card mb-4">
             <div class="card-body">
@@ -206,7 +206,7 @@
 
                         <div class="row">
                             <div class="col-md-3">
-                                <strong class="mb-0">Equipos-Insumos</strong>
+                                <strong class="mb-0">Productos</strong>
                             </div>
                             <div class="col-md-9">
                                 @if (!$disabled)
@@ -447,7 +447,7 @@
 
                 <div class="card shadow-sm">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        <strong>Equipos-Insumos seleccionados</strong>
+                        <strong>Productos seleccionados</strong>
                         @if (!$disabled)
                             <small class="text-muted">Cant. & acciones</small>
                         @endif

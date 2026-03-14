@@ -69,7 +69,7 @@ return [
                 'can' => 'subreferencias.index'
             ],
             [
-                'text' => 'Equipos-Insumos',
+                'text' => 'Productos',
                 'url' => 'productos',
                 'icon' => 'fas fa-boxes-stacked', // productos/inventario
                 'can' => 'productos.index'

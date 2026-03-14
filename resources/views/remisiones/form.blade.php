@@ -220,7 +220,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <strong class="mb-0">Equipos-Insumos </strong>
+                                <strong class="mb-0">Productos </strong>
                             </div>
                             <!-- Filtro por producto -->
                             <div class="col-md-9 d-flex align-items-center gap-2">
@@ -469,7 +469,7 @@
 
                 <div class="card shadow-sm">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        <strong>Equipos-Insumos seleccionados</strong>
+                        <strong>Productos seleccionados</strong>
                         @if (!$disabled)
                             <small class="text-muted">Cant. & acciones</small>
                         @endif

@@ -35,7 +35,7 @@ Asegurar que cada producto tenga un registro de inventario base en el almacén p
 
 #### Descripción
 El script realiza las siguientes acciones:
-1.  **Selecciona Equipos-Insumos**: Identifica todos los productos de la tabla `productos`.
+1.  **Selecciona Productos**: Identifica todos los productos de la tabla `productos`.
 2.  **Verifica Existencia**: Comprueba si ya existe un registro en `inventarios` para el `almacen_id = 1`.
 3.  **Inserta Nuevos Registros**: Si no existe, crea una entrada con stock en 0.
 
@@ -51,7 +51,7 @@ LEFT JOIN inventarios i
 WHERE i.id IS NULL;
 ```
 
-### 2. Actualización Masiva de Jerarquía de Equipos-Insumos
+### 2. Actualización Masiva de Jerarquía de Productos
 
 Estos scripts son útiles para corregir o sincronizar la estructura jerárquica de los productos (Grupo > Categoría > Subcategoría > Subreferencia) basándose en la `subreferencia_id` asignada.
 
