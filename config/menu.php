@@ -75,7 +75,7 @@ return [
                 'can' => 'productos.index'
             ],
             [
-                'text' => 'Combo Equipos',
+                'text' => 'Combo Productos',
                 'url' => 'combinaciones',
                 'icon' => 'fas fa-box', // productos/inventario
                 'can' => 'combinaciones.index'
