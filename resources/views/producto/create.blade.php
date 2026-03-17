@@ -13,7 +13,7 @@
 
                 <div class="card card-default">
                     <div class="card-header">
-                        <span class="card-title">Nuevo Equipo-Insumo</span>
+                        <span class="card-title">Nuevo Producto</span>
                         <span class="card_icon"></span>
                         <div class="float-right">
                             <a class="btn btn-primary" href="{{ route('productos.index') }}"> Atrás</a>

@@ -20,7 +20,7 @@
                                 <span class="card_icon"></span>
                                 <div class="float-right">
                                     <a href="{{ route('productos.create') }}" class="btn btn-primary btn-sm">
-                                        {{ __('Nuevo Equipo-Insumo') }}
+                                        {{ __('Nuevo Producto') }}
                                     </a>
                                 </div>
                             @endcan
