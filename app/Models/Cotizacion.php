@@ -42,13 +42,6 @@ class Cotizacion extends Model
         'ciudad_id',
         'lugar',
         'fecha_evento',
-        'fecha_montaje',
-        'personal_ids',
-        'transporte',
-        'placa',
-        'id_conductor',
-        'origen',
-        'destino',
         'estado_id',
         'created_by',
     ];

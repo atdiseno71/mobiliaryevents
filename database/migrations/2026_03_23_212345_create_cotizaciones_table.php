@@ -24,13 +24,6 @@ return new class extends Migration {
 
             $table->string('lugar', 120)->nullable();
             $table->dateTime('fecha_evento')->nullable();
-            $table->dateTime('fecha_montaje')->nullable();
-            $table->string('personal_ids')->nullable();
-            $table->string('transporte', 60)->nullable();
-            $table->string('placa', 20)->nullable();
-            $table->string('id_conductor', 30)->nullable();
-            $table->string('origen', 120)->nullable();
-            $table->string('destino', 120)->nullable();
 
             $table->unsignedBigInteger('estado_id')->nullable();
             $table->unsignedBigInteger('created_by')->nullable();

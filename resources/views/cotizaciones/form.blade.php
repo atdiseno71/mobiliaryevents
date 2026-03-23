@@ -108,7 +108,7 @@
         </div>
 
         <div class="row mb-4">
-            <div class="col-md-3">
+            <div class="col-md-6">
                 {{ Form::label('lugar', 'Lugar') }}
                 {{ Form::text('lugar', old('lugar', $data->lugar ?? ''), [
                     'class' => 'form-control' . ($errors->has('lugar') ? ' is-invalid' : ''),
@@ -118,7 +118,7 @@
                 {!! $errors->first('lugar', '<div class="invalid-feedback">:message</div>') !!}
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-6">
                 {{ Form::label('fecha_evento', 'Fecha y hora del evento') }}
                 {{ Form::datetimeLocal('fecha_evento', $fechaEventoValue, [
                     'class' => 'form-control' . ($errors->has('fecha_evento') ? ' is-invalid' : ''),
@@ -126,78 +126,6 @@
                     'disabled' => $disabled ? 'disabled' : null,
                 ]) }}
                 {!! $errors->first('fecha_evento', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-
-            <div class="col-md-3">
-                {{ Form::label('fecha_montaje', 'Fecha y hora del montaje') }}
-                {{ Form::datetimeLocal('fecha_montaje', $fechaMontajeValue, [
-                    'class' => 'form-control' . ($errors->has('fecha_montaje') ? ' is-invalid' : ''),
-                    'placeholder' => 'Fecha y hora del montaje',
-                    'disabled' => $disabled ? 'disabled' : null,
-                ]) }}
-                {!! $errors->first('fecha_montaje', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-
-            <div class="col-md-3">
-                {{ Form::label('transporte', 'Transporte') }}
-                {{ Form::text('transporte', old('transporte', $data->transporte ?? ''), [
-                    'class' => 'form-control' . ($errors->has('transporte') ? ' is-invalid' : ''),
-                    'placeholder' => 'Transporte',
-                    'disabled' => $disabled ? 'disabled' : null,
-                ]) }}
-                {!! $errors->first('transporte', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-2">
-                {{ Form::label('placa', 'Placa') }}
-                {{ Form::text('placa', old('placa', $data->placa ?? ''), [
-                    'class' => 'form-control' . ($errors->has('placa') ? ' is-invalid' : ''),
-                    'placeholder' => 'Placa',
-                    'disabled' => $disabled ? 'disabled' : null,
-                ]) }}
-                {!! $errors->first('placa', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-
-            <div class="col-md-2">
-                {{ Form::label('id_conductor', 'ID Conductor') }}
-                {{ Form::text('id_conductor', old('id_conductor', $data->id_conductor ?? ''), [
-                    'class' => 'form-control' . ($errors->has('id_conductor') ? ' is-invalid' : ''),
-                    'placeholder' => 'ID conductor',
-                    'disabled' => $disabled ? 'disabled' : null,
-                ]) }}
-                {!! $errors->first('id_conductor', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-
-            <div class="col-md-2">
-                {{ Form::label('origen', 'Origen') }}
-                {{ Form::text('origen', old('origen', $data->origen ?? ''), [
-                    'class' => 'form-control' . ($errors->has('origen') ? ' is-invalid' : ''),
-                    'placeholder' => 'Origen',
-                    'disabled' => $disabled ? 'disabled' : null,
-                ]) }}
-                {!! $errors->first('origen', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-
-            <div class="col-md-2">
-                {{ Form::label('destino', 'Destino') }}
-                {{ Form::text('destino', old('destino', $data->destino ?? ''), [
-                    'class' => 'form-control' . ($errors->has('destino') ? ' is-invalid' : ''),
-                    'placeholder' => 'Destino',
-                    'disabled' => $disabled ? 'disabled' : null,
-                ]) }}
-                {!! $errors->first('destino', '<div class="invalid-feedback">:message</div>') !!}
-            </div>
-
-            <div class="col-md-4">
-                {{ Form::label('personal_ids', 'Personal') }}
-                {{ Form::select('personal_ids[]', $users ?? [], $personalSeleccionado, [
-                    'class' => 'form-select select2' . ($errors->has('personal_ids') ? ' is-invalid' : ''),
-                    'disabled' => $disabled ? 'disabled' : null,
-                    'multiple' => 'multiple',
-                ]) }}
-                {!! $errors->first('personal_ids', '<div class="invalid-feedback">:message</div>') !!}
             </div>
         </div>
 
