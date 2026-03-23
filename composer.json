@@ -10,7 +10,8 @@
     "require": {
         "php": "^8.1",
         "barryvdh/laravel-dompdf": "^1.0",
-        "doctrine/dbal": "^4.3",
+        "carbonphp/carbon-doctrine-types": "^2.1",
+        "doctrine/dbal": "^3.7",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "3.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
