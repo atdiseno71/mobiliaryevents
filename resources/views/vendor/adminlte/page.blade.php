@@ -142,9 +142,6 @@
             background-position: center;
         }
     </style>
-
-    <link rel="stylesheet" href="{{ asset('css/override-adminlte.css') }}">
-
 @stop
 
 @section('classes_body', $layoutHelper->makeBodyClasses())
