@@ -131,7 +131,7 @@
 
                         @if ($empresa->logo)
                             <div class="mt-3">
-                                <img src="{{ asset($empresa->logo) }}" alt="Logo" width="120"
+                                <img src="{{ asset("storage/{$empresa->logo}") }}" alt="Logo" width="120"
                                     class="rounded shadow-sm">
                             </div>
                         @endif
