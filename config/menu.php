@@ -3,101 +3,100 @@
 return [
     [
         'text' => 'Configuración',
-        'icon' => 'fas fa-cog', // configuración general
+        'icon' => 'fas fa-cogs',
         'can' => 'getSelects',
         'submenu' => [
             [
                 'text' => 'Empresa',
                 'url' => 'empresa',
-                'icon' => 'fas fa-building', // empresa
-                'can' => 'empresa.index'
+                'icon' => 'fas fa-building',
+                'can' => 'empresa.index',
             ],
             [
                 'text' => 'Roles',
                 'url' => 'roles',
-                'icon' => 'fas fa-user-shield', // mejor para roles/permisos
-                'can' => 'roles.index'
+                'icon' => 'fas fa-user-shield',
+                'can' => 'roles.index',
             ],
             [
                 'text' => 'Usuarios',
                 'url' => 'usuarios',
-                'icon' => 'fas fa-users-cog', // usuarios con configuración
-                'can' => 'usuarios.index'
+                'icon' => 'fas fa-users',
+                'can' => 'usuarios.index',
             ],
         ],
     ],
     [
         'text' => 'Parámetros',
-        'icon' => 'fas fa-sliders-h', // más limpio
+        'icon' => 'fas fa-sliders-h',
         'can' => 'getSelects',
         'submenu' => [
             [
                 'text' => 'Almacen',
                 'url' => 'almacenes',
-                'icon' => 'fas fa-warehouse', // jerarquía/subniveles
-                'can' => 'almacenes.index'
+                'icon' => 'fas fa-warehouse',
+                'can' => 'almacenes.index',
             ],
             [
                 'text' => 'Tipo Eventos',
                 'url' => 'tipos-evento',
-                'icon' => 'fas fa-calendar-alt',
-                'can' => 'tipos-evento.index'
+                'icon' => 'fas fa-calendar-check',
+                'can' => 'tipos-evento.index',
             ],
-
             [
                 'text' => 'Grupos',
                 'url' => 'grupos',
-                'icon' => 'fas fa-object-group', // perfecto para grupos
-                'can' => 'grupos.index'
+                'icon' => 'fas fa-layer-group',
+                'can' => 'grupos.index',
             ],
             [
                 'text' => 'Categorias',
                 'url' => 'categorias',
-                'icon' => 'fas fa-tags', // categorías
-                'can' => 'categorias.index'
+                'icon' => 'fas fa-tags',
+                'can' => 'categorias.index',
             ],
             [
                 'text' => 'SubCategorias',
                 'url' => 'subcategorias',
-                'icon' => 'fas fa-tag', // subcategoría
-                'can' => 'subcategorias.index'
+                'icon' => 'fas fa-tag',
+                'can' => 'subcategorias.index',
             ],
             [
                 'text' => 'SubReferencias',
                 'url' => 'subreferencias',
-                'icon' => 'fas fa-stream', // jerarquía/subniveles
-                'can' => 'subreferencias.index'
+                'icon' => 'fas fa-sitemap',
+                'can' => 'subreferencias.index',
             ],
             [
                 'text' => 'Productos',
                 'url' => 'productos',
-                'icon' => 'fas fa-boxes-stacked', // productos/inventario
-                'can' => 'productos.index'
+                'icon' => 'fas fa-boxes',
+                'can' => 'productos.index',
             ],
             [
                 'text' => 'Combo Productos',
                 'url' => 'combinaciones',
-                'icon' => 'fas fa-box', // productos/inventario
-                'can' => 'combinaciones.index'
+                'icon' => 'fas fa-box-open',
+                'can' => 'combinaciones.index',
             ],
         ],
     ],
     [
         'text' => 'General',
-        'icon' => 'fas fa-layer-group', // sección general (más coherente)
+        'icon' => 'fas fa-briefcase',
         'can' => 'getSelects',
         'submenu' => [
             [
                 'text' => 'Clientes',
                 'url' => 'clientes',
-                'icon' => 'fas fa-user-group', // clientes
-                'can' => 'clientes.index'
+                'icon' => 'fas fa-user-tie',
+                'can' => 'clientes.index',
             ],
             [
                 'text' => 'Proveedores',
                 'url' => 'proveedores',
-                'icon' => 'fas fa-truck', // proveedor
-                'can' => 'proveedores.index'
+                'icon' => 'fas fa-truck-loading',
+                'can' => 'proveedores.index',
             ],
         ],
     ],
@@ -109,20 +108,26 @@ return [
             [
                 'text' => 'Remisiones',
                 'url' => 'remisiones',
+                'icon' => 'fas fa-file-alt',
+                'can' => 'remisiones.index',
+            ],
+            [
+                'text' => 'Cotizaciones',
+                'url' => 'cotizaciones',
                 'icon' => 'fas fa-file-signature',
-                'can' => 'remisiones.index'
+                'can' => 'cotizaciones.index',
             ],
             [
                 'text' => 'Movimientos',
                 'url' => 'movimientos',
-                'icon' => 'fas fa-right-left',
-                'can' => 'movimientos.index'
+                'icon' => 'fas fa-exchange-alt',
+                'can' => 'movimientos.index',
             ],
             [
                 'text' => 'Inventario',
                 'url' => 'inventarios',
-                'icon' => 'fas fa-box-open',
-                'can' => 'inventarios.index'
+                'icon' => 'fas fa-clipboard-list',
+                'can' => 'inventarios.index',
             ],
         ],
     ],

@@ -23,6 +23,7 @@ use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\TipoEventoController;
 use App\Http\Controllers\InventarioController;
+use App\Http\Controllers\CotizacionController;
 use App\Http\Controllers\CombinacionController;
 use App\Http\Controllers\SubCategoriaController;
 use App\Http\Controllers\SubReferenciaController;
@@ -80,6 +81,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('productos', ProductoController::class)->names('productos');
     Route::resource('combinaciones', CombinacionController::class)->names('combinaciones');
     Route::resource('remisiones', RemisionController::class)->names('remisiones');
+    Route::resource('cotizaciones', CotizacionController::class)->names('cotizaciones');
     Route::resource('tipos-evento', TipoEventoController::class);
     Route::resource('movimientos', MovimientoInventarioController::class);
 

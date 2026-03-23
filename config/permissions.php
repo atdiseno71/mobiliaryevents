@@ -42,6 +42,7 @@ return [
         'subcategorias',
         'productos',
         'remisiones',
+        'cotizaciones',
         'tipos-evento',
         'inventarios',
         'movimientos',
